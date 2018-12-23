@@ -6,6 +6,7 @@
 cn.lsu.chicken.file下 有 constants包
 constants包下有 AliyunOSSConfigConstant.java是OSS的配置信息
 
+"""Java
 
 public class AliyunOSSConfigConstant {
 
@@ -23,3 +24,5 @@ public class AliyunOSSConfigConstant {
     public static final String FILE_HOTS = "xxx";
 
 }
+
+"""
