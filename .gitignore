@@ -3,3 +3,4 @@ file/.idea
 file/target
 file/src/main/java/cn/lsu/chicken/file/constants/AliyunOSSConfigConstant.java
 
+file/log
