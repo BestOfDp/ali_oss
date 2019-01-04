@@ -6,3 +6,6 @@ file/src/main/java/cn/lsu/chicken/file/constants/AliyunOSSConfigConstant.java
 
 file/log
 file/src/test
+file/*.dll
+file/*.dat
+file/*.dat-journal
