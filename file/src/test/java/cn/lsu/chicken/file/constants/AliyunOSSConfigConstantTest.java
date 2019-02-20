@@ -39,9 +39,17 @@ public class AliyunOSSConfigConstantTest {
 
     @Test
     public void upload() {
-//        String path = "C:\\Users\\InTheBloodHorse\\Desktop\\1.jpg";
-//        File file = new File(path);
-//        String result = AliyunOSSUtil.upload(file,0);
-//        System.out.println(result);
+        String path = "C:\\Users\\InTheBloodHorse\\Desktop\\1.jpg";
+        File file = new File(path);
+        try {
+            InputStream inputStream = new FileInputStream(file);
+
+            String result = AliyunOSSUtil.upload(inputStream, file.getName(), 0);
+            System.out.println(result);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

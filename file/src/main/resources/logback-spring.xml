@@ -27,7 +27,7 @@
         <!--滚动策略-->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>
-                log/sell/info.%d.log
+                log/file/info.%d.log
             </fileNamePattern>
         </rollingPolicy>
     </appender>
